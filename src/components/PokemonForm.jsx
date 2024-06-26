@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./PokemonForm.css";
 
 const initialState = {
   name: "",
@@ -26,7 +27,7 @@ const PokemonForm = (props) => {
 
   return (
     <main>
-      <h2>New Pokemon</h2>
+      <h2 className="heading">New Pokemon</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
