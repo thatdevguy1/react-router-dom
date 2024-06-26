@@ -1,5 +1,12 @@
 .heading {
   color: rgb(219, 154, 154);
 }
+
 /* creating a conflict  */
-/* Can we resolve this conflict we have createed?  */
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  flex-direction: column;
+}
